@@ -7,18 +7,21 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HeaderComponent } from './components/templates/header/header.component';
 
 import { MatToolbarModule } from '@angular/material/toolbar';
+import { MatCardModule } from '@angular/material/card';
 import  { MatSidenavModule } from '@angular/material/sidenav'
 import  { MatListModule } from '@angular/material/list'
 
 import { FooterComponent } from './components/templates/footer/footer.component';
-import { NavComponent } from './components/templates/nav/nav.component'
+import { NavComponent } from './components/templates/nav/nav.component';
+import { HomeComponent } from './views/home/home.component'
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     FooterComponent,
-    NavComponent
+    NavComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
@@ -26,7 +29,8 @@ import { NavComponent } from './components/templates/nav/nav.component'
     BrowserAnimationsModule,
     MatToolbarModule,
     MatSidenavModule,
-    MatListModule
+    MatListModule,
+    MatCardModule
   ],
   providers: [],
   bootstrap: [AppComponent]
