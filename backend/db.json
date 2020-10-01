@@ -1,0 +1,24 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Caneta BIC preta",
+      "price": 5.89
+    },
+    {
+      "id": 2,
+      "name": "Noteboock",
+      "price": 5000.89
+    },
+    {
+      "id": 3,
+      "name": "Motorola moto g8",
+      "price": 1100
+    },
+    {
+      "name": "Geladeira",
+      "price": 1900.99,
+      "id": 4
+    }
+  ]
+}
