@@ -8,8 +8,12 @@ import { HeaderComponent } from './components/templates/header/header.component'
 
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatCardModule } from '@angular/material/card';
-import  { MatSidenavModule } from '@angular/material/sidenav'
-import  { MatListModule } from '@angular/material/list'
+import { MatSidenavModule } from '@angular/material/sidenav'
+import { MatListModule } from '@angular/material/list'
+import { MatButtonModule } from '@angular/material/button';
+import { MatSnackBarModule } from '@angular/material/snack-bar';
+import { MatFormFieldModule }  from '@angular/material/form-field'
+import { MatInputModule } from '@angular/material/input'
 
 import { FooterComponent } from './components/templates/footer/footer.component';
 import { NavComponent } from './components/templates/nav/nav.component';
@@ -17,9 +21,8 @@ import { HomeComponent } from './views/home/home.component';
 import { ProductCrudComponent } from './views/product-crud/product-crud.component';
 import { RedDirective } from './directives/red.directive';
 import { ProductCreateComponent } from './components/product/product-create/product-create.component'
-import { MatButtonModule } from '@angular/material/button';
-import { MatSnackBarModule } from '@angular/material/snack-bar';
 import { HttpClientModule } from '@angular/common/http'
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -42,7 +45,10 @@ import { HttpClientModule } from '@angular/common/http'
     MatCardModule,
     MatButtonModule,
     MatSnackBarModule,
-    HttpClientModule
+    HttpClientModule,
+    FormsModule,
+    MatFormFieldModule,
+    MatInputModule
   ],
   providers: [],
   bootstrap: [AppComponent]
