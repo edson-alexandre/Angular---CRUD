@@ -24,16 +24,6 @@
       "name": "Produto novo",
       "price": 1000,
       "id": 5
-    },
-    {
-      "name": "Agora o produto 7 tem nome e preço",
-      "price": 10,
-      "id": 7
-    },
-    {
-      "name": "Agora sim vai salvar",
-      "price": 10000,
-      "id": 8
     }
   ]
 }
